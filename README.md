@@ -7,4 +7,7 @@ Learned Pods fundamental knowledge by video with easypeasy and almofire as examp
 Continued learn Pods in the morning then did class inheritance practice.
 
 09.13.2017
-Completed class inheritance proctice.
+Completed class inheritance practice.
+
+09.13.2017
+Learned and did class polymorphism and protocol practice.
