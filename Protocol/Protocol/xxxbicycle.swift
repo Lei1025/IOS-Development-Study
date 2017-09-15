@@ -12,13 +12,13 @@ class xxxbicycle: streetLegal{
     init(xxxpedal: String) {
         self.xxxpedal =  xxxpedal
     }
-    func xxxsignalStop() {
-        print("Bicycle Stop")
+    func xxxsignalStop() -> String{
+        return("Bicycle Stop")
     }
-    func xxxsignalLeftTurn(){
-        print("Bicycle Left Turn")
+    func xxxsignalLeftTurn() -> String{
+        return("Bicycle Left Turn")
     }
-    func xxxsignalRightTurn(){
-        print("Bicycle Right Turn")
+    func xxxsignalRightTurn() -> String{
+        return("Bicycle Right Turn")
     }
 }

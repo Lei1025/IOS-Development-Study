@@ -31,7 +31,7 @@ import Foundation
 
 class XXXcar: XXXWheel{
     var XXXWheels : Array = [XXXWheel]()
-    init(Wheels: [XXXWheel], color: String, year: Int, Manufactory: String ) {
+    init(Wheels: [XXXWheel], color: color, year: Int, Manufactory: String ) {
         self.XXXWheels = Wheels
         super.init(color: color, year: year, Manufactory: Manufactory)
     }

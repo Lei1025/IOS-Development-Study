@@ -25,8 +25,39 @@ let people = xxxpedstrian(xxxleg: "DaBai")
 //dump(people)
 //people.xxxsignalRightTurn()
 
-let array : Array<Any> = [boat, car, bike, people]
+let StreetLegal : [streetLegal] = [car, bike, people]
+dump(StreetLegal)
 
-for i in array{
-    dump(i)
+for i in StreetLegal{
+    print(i.xxxsignalLeftTurn()+"\n"+i.xxxsignalRightTurn()+"\n"+i.xxxsignalStop()+"\n")
 }
+
+let MotorVehicle : [xxxMotorVehicle] = [car, boat]
+    dump(MotorVehicle)
+
+//var streetLegalArray: Array<Any> = []
+////for i in [bike, car, people]  as <Any>{
+////    let a: String =  i.xxxsignalLeftTurn()
+////    
+////    func xxxsignalLeftTurn()
+////    func xxxsignalRightTurn()
+////}
+//var bikeSL: Array<String> = []
+//bikeSL.append(bike.xxxsignalLeftTurn())
+//bikeSL.append(bike.xxxsignalRightTurn())
+//bikeSL.append(bike.xxxsignalStop())
+//
+//var carSL: Array<String> = []
+//carSL.append(car.xxxsignalLeftTurn())
+//carSL.append(car.xxxsignalRightTurn())
+//carSL.append(car.xxxsignalStop())
+//
+//var peopleSL:Array<String> = []
+//peopleSL.append(people.xxxsignalLeftTurn())
+//peopleSL.append(people.xxxsignalRightTurn())
+//peopleSL.append(people.xxxsignalStop())
+//
+//streetLegalArray = [bikeSL, carSL, peopleSL]
+//dump(streetLegalArray)
+
+

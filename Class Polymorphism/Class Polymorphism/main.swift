@@ -23,18 +23,18 @@ print("Hello, World!")
 //7)print the car info’’’’
 
 //four wheel
-let w1 = XXXWheel(color: "Black", year: 2015, Manufactory: "abc")
-let w2 = XXXWheel(color: "Black", year: 2012, Manufactory: "fif")
-let w3 = XXXWheel(color: "Black", year: 2013, Manufactory: "skf")
-let w4 = XXXWheel(color: "Black", year: 2017, Manufactory: "asof")
+let w1 = XXXWheel(color: .black, year: 2015, Manufactory: "abc")
+let w2 = XXXWheel(color: .blue, year: 2012, Manufactory: "fif")
+let w3 = XXXWheel(color: .white, year: 2013, Manufactory: "skf")
+let w4 = XXXWheel(color: .red, year: 2017, Manufactory: "asof")
 
 
 
-var car = XXXcar(Wheels: [w1,w2,w3,w4], color: "White", year: 2017, Manufactory: "ndg")
+var car = XXXcar(Wheels: [w1,w2,w3,w4], color: .white, year: 2017, Manufactory: "ndg")
 print("Car with 4 wheels")
 dump(car)
 
-car.XXXaddWheel(oneWheel: XXXWheel(color: "Silver", year: 2012, Manufactory: "Myself"))
+car.XXXaddWheel(oneWheel: XXXWheel(color: .red, year: 2012, Manufactory: "Myself"))
 print("Add a Wheel")
 dump(car)
 

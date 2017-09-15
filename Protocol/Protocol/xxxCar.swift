@@ -12,6 +12,7 @@
 
 import Foundation
 class xxxCar: xxxMotorVehicle, streetLegal {
+
     var xxxwheel: String
     var xxxcarPrice: Double
     var xxxcarFrequency: Int
@@ -22,15 +23,16 @@ class xxxCar: xxxMotorVehicle, streetLegal {
         self.xxxcarFrequency = xxxcarFrequency
         self.xxxcalculateOilFee = self.xxxcarPrice * Double(self.xxxcarFrequency)
         super.init(year: year, color: color)
-    }   
-    func xxxsignalStop() {
-      print("Car Stop")
-    }
-    func xxxsignalLeftTurn(){
-        print("Car Left Turn")
-    }
-    func xxxsignalRightTurn(){
-        print("Car Right Turn")
         
     }
+    func xxxsignalStop() -> String {
+        return "Car Stop"
+    }
+    func xxxsignalLeftTurn() -> String{
+        return ("Car Left Turn")
+    }
+    func xxxsignalRightTurn() -> String{
+        return ("Car Right Turn")
+    }
+
 }

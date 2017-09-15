@@ -17,12 +17,11 @@ class XXXWheel{
         case blue = "blue"
         case red = "red"
     }
-    //???
-    var XXXcolour: String
+    var XXXcolour: color.RawValue
     var XXXyear: Int
     var XXXManufactory: String
-    init(color: String, year: Int, Manufactory: String ){
-        self.XXXcolour = color
+    init(color: color, year: Int, Manufactory: String ){
+        self.XXXcolour = color.rawValue
         self.XXXyear = year
         self.XXXManufactory = Manufactory
     }

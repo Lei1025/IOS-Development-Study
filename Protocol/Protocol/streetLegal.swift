@@ -13,7 +13,9 @@
 import Foundation
 
 protocol streetLegal {
-    func xxxsignalStop()
-    func xxxsignalLeftTurn()
-    func xxxsignalRightTurn()
+    func xxxsignalStop() -> String
+    func xxxsignalLeftTurn()-> String
+
+    func xxxsignalRightTurn()-> String
+
 }
